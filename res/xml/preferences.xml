@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	<ListPreference
+	    android:key="max_attempts"
+	    android:title="@string/title_max_attempts"
+	    android:summary="@string/summary_max_attempts"
+	    android:entries="@array/entries_max_attempts"
+	    android:entryValues="@array/entryvalues_max_attempts"
+	    android:defaultValue="20"
+	    android:dialogTitle="@string/label_max_attempts" />
+</PreferenceScreen>

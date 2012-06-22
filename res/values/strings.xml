@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Enter four numbers below and submit your guess</string>
+    <string name="app_name">MasterMind</string>
+    <string name="app_version">version 0.2</string>
+    <string name="app_site">http://www.nonexistant.org</string>
+    <string name="congrats">Congrats, you solved the puzzle</string>
+    <string name="menu_label_instructions">Game Instructions</string>
+    <string name="menu_label_scores">High Scores</string>
+    <string name="menu_label_about">About</string>
+    <string name="title_max_attempts">Difficulty Level</string>
+    <string name="summary_max_attempts">This will determine how many attempts at guessing the correct number will be allowed.</string>
+    <string name="label_max_attempts">Select Difficulty Level</string>
+    <string name="menu_label_prefs">Preferences</string>
+    <string name="menu_label_reset">Reset</string>
+    <string name="button_label_guess">Submit Guess</string>
+    <string name="max_attempts_exceeded">You\'ve exceeded your max number of attempts.</string>
+    <string name="about_text">\n\nMasterMind v0.2\n\nhttp://site.doesnt-exist.org/\n\nCopyright Nobody, this was a shared experience.\n</string>
+    <string name="instruction_text">To submit your guess, enter four numbers in the text fields that are supplied (each number will be 0-9), then click the Submit Guess button.  The guess will then be evaluated and you will be presented with the results of how many numbers in the combination are correct and of those, how many are in the correct position.  See below for examples.\n    
+\nExamples:\n
+ MasterMind Number: 1-2-2-4\n
+ Your Guess: 1-2-5-5\n
+ Results in 2 numbers correct and 2 positions correct\n
+\n
+ MasterMind Number: 1-4-5-6\n
+ Guess: 7-7-1-9\n
+ Results in 1 numbers correct and 0 positions correct\n
+</string>
+</resources>

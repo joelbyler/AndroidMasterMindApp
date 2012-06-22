@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+	<LinearLayout
+          android:id="@+id/LinearLayout02"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:gravity="center_horizontal" >
+	    <EditText
+	        android:id="@+id/guessNumberOne"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="3"
+	        android:inputType="number"
+	        android:maxLength="1"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:digits="0123456789">
+	        <requestFocus />
+	    </EditText>
+	    <EditText
+	        android:id="@+id/guessNumberTwo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="3"
+	        android:inputType="number"
+	        android:maxLength="1"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:digits="0123456789">
+	    </EditText>
+		<EditText
+	        android:id="@+id/guessNumberThree"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="3"
+	        android:inputType="number"
+	        android:maxLength="1"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:digits="0123456789">
+	    </EditText>
+		<EditText
+	        android:id="@+id/guessNumberFour"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="3"
+	        android:inputType="number"
+	        android:maxLength="1"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:digits="0123456789">
+		</EditText>
+	</LinearLayout>
+
+	<Button
+	    android:id="@+id/guess_button"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/button_label_guess"
+	    android:onClick="processGuess" />
+
+</LinearLayout>
